@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .left-bar{
+            position:fixed;
+            top: 10px;
+            left: 10px;
+        }
+        .right-bar{
+            position:fixed;
+            top: 10px;
+            right: 10px;
+        }
+        .search-section{
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
 </head>
 <body>
-    <p>&#x2699;&#8226; online | &#9201; - ms</p>
-    <h1>BeingInfinity</h1>
-
-    <p>One million phrases.Four algorithms.Prefix Based Auto Susggest<p>
-     <span>&#128269; <input placeholder="search Typing to Search"></span>
-    
-    
+    <div>
+    <span class="left-bar">&#9881;</span>
+    <span class="right-bar">&#8226; online | &#128337; - ms</span>
+</div>
+    <div class="search-section">
+        <h1>Being Infinity</h1>
+        <h2>One million phrases. Four algorithms. Prefix based Auto Suggestions</h2>
+        &#128269;<input type="text" id="search" placeholder="Search here...">
+    </div>
 </body>
 </html>
